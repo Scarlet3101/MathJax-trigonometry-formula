@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>MathJax example</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+</head>
+<body>
+<p>
+  \[\sin^2α + cos^2α = 1\]
+  \[\tanα = {\sinα \over \cosα}\]
+  \[\cotα = {\cosα \over \sinα}\]
+  \[ \tanα * \cotα = 1\]
+  \[ {1 \over \sin^2α} = \cot^2α + 1\]
+  \[\sin(-α) = -\sinα\]
+  \[\cos(-α) = -\tan\]
+  \[tg(-α) = -\tanα\]
+  \[\cot(-α) = -\cotα\]
+  
+  \[\sin(α + β) = \sinα \cosβ + \cosα\sinβ\]
+  \[\sin(α - β) = \sinα \cosβ - \cosα\sinβ\]
+  \[\cos(α + β) = \cosα \cosβ - \sinα\sinβ\]
+  \[\cos(α - β) = \cosα \cosβ - \sinα\sinβ\]
+  
+  \[\tan(α + β) = {\tanα + \tanβ \over 1 - \tanα * \tanβ}\]
+  
+  \[\tan(α - β) = {\tanα - \tanβ \over 1 + \tanα * \tanβ}\]
+  
+  \[\tan(α + β) = {\cotα * \cotβ - 1\over \cotβ + \cotα}\]
+  
+  \[\tan(α - β) = {\cotα * \cotβ + 1\over \cotβ - \cotα}\]
+ 
+  
+  \[sin2α = 2\sinα * \cosα\]
+  \[\cos2α = cos^2α - sin^2α = 1 - 2\sin^2α = 2\cos^2α - 1\]
+  
+  \[\tan2α = {2\tanα \over 1 -\tan^2α}\]
+  
+  \[\cot2α = {\cot^2α - 1 \over 2\cotα}\]
+  
+  
+  
+  \[\sin^2{α\over 2} = {1 - \cosα \over 2}\]
+  
+  \[\cos^2{α\over 2} = {1 + \cosα \over 2}\]
+  
+  \[\tan^2{α\over 2} = {1 - \cosα \over 1 + \cosα}\]
+ 
+  \[\tan{α\over 2} = {\sinα \over 1 + \cosα} = {1 -\cosα \over \sinα}\]
+  
+  \[\cot^2{α\over 2} = {1 + \cosα \over 1 - \cosα}\]
+  
+  \[\cot{α\over 2} = {\sinα \over 1 - \cosα} = {1 + \cosα \over \sinα}\]
+
+
+  
+  
+  \[\sinα + \sinβ = 2\sin{α + β \over 2} * \cos{α - β \over 2}\]
+  
+  \[\sinα - \sinβ = 2\cos{α + β \over 2} * \sin{α - β \over 2}\]
+  
+  \[\cosα + \cosβ = 2\cos{α + β \over 2} * \cos{α - β \over 2}\]
+
+  \[\cosα - \cosβ = -2\sin{α + β \over 2} * \sin{α - β \over 2}\]
+
+
+  \[\tanα \pm \tanβ = {\sin(α \pm β) \over \cosα * \cosβ}\]
+  
+  \[\cotα \pm \cotβ = {\sin(α \pm β) \over \sinα * \sinβ}\]
+
+
+  
+
+  \[\sin3α = 3\sinα - 4\sin^3α\]
+  
+  \[\cos3α = 4\sin^3α - 3\cosα\]
+  
+  \[\tan3α = {3\tanα - \tan^3α\over 1- 3 \tan^2α}\]
+
+  \[\cot3α = {\cot^3α - 3\cotα\over 3\cot^2α - 1}\]
+
+  
+  
+  
+  \[\sinα = {2\tan{α \over 2} \over 1 + \tan^2{α \over 2}}\]
+  
+  \[\tanα = {2\tan{α \over 2} \over 1 - \tan^2{α \over 2}}\]
+  
+  
+  \[\cosα = {1 - \tan^2{α \over 2} \over 1 + \tan^2{α \over 2}}\]
+  
+  \[\cotα = {1 - \tan^2{α \over 2} \over 2\tan{α \over 2}}\]
+
+  
+  
+  \[\sinα * \sinβ = {\cos(α - β) - \cos(α + β) \over 2}\]
+  
+  \[\cosα * \cosβ = {\cos(α - β) + \cos(α + β) \over 2}\]
+  
+  \[\sinα * \sinβ = {\sin(α + β) + \sin(α - β) \over 2}\]
+  
+  \[\tanα * \tanβ = {\tanα + \tanβ \over \cotα + \cotβ}\]
+  
+  \[\cotα * \cotβ = {\cotα + \cotβ \over \tanα + \tanβ}\]
+  
+
+</p>
+</body>
+</html>
